@@ -1,7 +1,10 @@
+import pandas as pd
+from openpyxl import load_workbook
+
 '''
-pd.read_excel()은 더 이상 chunksize 를 지원하지 않는다.
-따라서 특정 row수만큼 반복하여 끊어 읽기 위해서는 loop을 사용해야 한다.
-This code shows how to whole read excel file chunk by chunk with pd.read_excel.
+    pd.read_excel()은 더 이상 chunksize 를 지원하지 않는다.
+    따라서 특정 row수만큼 반복하여 끊어 읽기 위해서는 loop을 사용해야 한다.
+    This code shows how to whole read excel file chunk by chunk with pd.read_excel.
 '''
 
 
