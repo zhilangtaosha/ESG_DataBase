@@ -37,4 +37,6 @@ del sheet
 
 for chunk_count in range(0,no_iter):
     print("......Reading Iteration: "+str(chunk_count+1)+"/"+str(no_iter)+"......")
-    cert, comp = readList(input_path, chunk_count, r)
+    comp = readList(input_path, chunk_count, chunk)
+    ...                                             # data handling part
+    comp.to_excel(output_path+str(chunk_count)+".xlsx", engine='xlsxwriter')  
