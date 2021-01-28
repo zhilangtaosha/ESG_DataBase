@@ -8,7 +8,7 @@ import pandas as pd
 
 api_key = "6fd643eda53c476478c70ae1661d222b3fd1264d"
 symbol = "028050" # 삼성엔지니어
-standard_year = "20190101"
+standard_year = "2019"
 
 # 종목코드로 고유번호를 찾는 함수(CORPCODE.xml이 같은 경로 안에 있어야 함)
 def find_corp_code(symbol):
