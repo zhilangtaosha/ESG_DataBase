@@ -10,45 +10,11 @@ import dart_fss as dart
 import requests
 
 input_path = "G:\\내 드라이브\\icin\\인증개선_icin_기업명_20210106.xlsx"
-symbol_df = pd.read_excel(input_path, usecols="C", sheet_name=0,nrows=10,dtype=str)
-# symbol_list = symbol_df.values.tolist()
-# symbol_list = symbol_df.tolist()
+symbol_df = pd.read_excel(input_path, usecols="C", sheet_name=0,nrows=10,dtype=str) # string 형태로 저장해야 맨 앞의 0이 포함됨
 
 api_key = "6fd643eda53c476478c70ae1661d222b3fd1264d"
 standard_year = "2019"  # 사업보고서 연도
 
-# # 종목코드로 고유번호를 찾는 함수(CORPCODE.xml이 같은 경로 안에 있어야 함)
-# def find_corp_code(symbol):
-#     # Parsing CORPCODE.xml
-#     parse_corp = ET.parse('CORPCODE.xml')
-#     corp_root = parse_corp.getroot()
-#     for country in corp_root.iter("list"):
-#         if country.findtext("stock_code") == symbol:
-#             return country.findtext("corp_code")
-#
-# corp_code = find_corp_code(symbol)
-#
-# # 고유번호 이용한 사업보고서 검색
-# url = "https://opendart.fss.or.kr/api/list.xml?crtfc_key="+api_key+"&pblntf_ty=A&pblntf_detail_ty=A001&last_reprt_at=Y&bgn_de="+standard_year+"0101&corp_code="+corp_code
-# searchXML = urlopen(url)
-# searchResult = searchXML.read()
-# xmlSoup = BeautifulSoup(searchResult,'html.parser')
-# #print(xmlSoup)
-#
-# # 불러온 정보를 list 단위로 나누어 DF에 저장
-# resultDF = pd.DataFrame()
-# reportList = xmlSoup.findAll("list")
-# for t in reportList:
-#     temp = pd.DataFrame( ([[t.corp_cls.string, t.corp_name.string, t.corp_code.string, t.report_nm.string,
-#                             t.rcept_no.string, t.flr_nm.string, t.rcept_dt.string, t.rm.string]]),
-#                         columns=["corp_cls", "corp_name", "corp_code", "report_nm", "rcept_no", "flr_nm", "rcept_dt", "rm"])
-#     resultDF = pd.concat([resultDF, temp])
-#
-# print(resultDF)
-#
-# # report_nm이 '사업보고서 (기준연도.12)'인 보고서 접수번호 찾기
-# rcept_no = resultDF[resultDF['report_nm']=='사업보고서 ('+standard_year+'.12)']['rcept_no']
-# print(rcept_no)
 
 # A001(사업보고서) 검색 결과 List를 DF로 변환
 dart.set_api_key(api_key=api_key)
@@ -64,7 +30,7 @@ for index in symbol_df.index:
 
 # report_nm이 '사업보고서 (기준연도.12)'인 보고서 접수번호 찾기(rcept_no)
     print(resultDF['report_nm'])
-    rcept_no= resultDF[resultDF['report_nm']=='사업보고서 ('+standard_year+'.12)']['rcept_no'].values
+    rcept_no= resultDF[resultDF['report_nm'].str.contains(standard_year)]['rcept_no'].values
     report_url = "http://dart.fss.or.kr/dsaf001/main.do?rcpNo="+''.join(rcept_no)    # series이므로 string으로 변환
     print(report_url)
     html = urlopen(report_url)
