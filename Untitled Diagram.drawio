@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T10:03:49.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.4" etag="gCXUbHw-pwoGlESv9SKz" type="github"><diagram id="0etHUd4ZtsEKUsz-8fA3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-05T10:10:51.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="YZxadZHPIHZxG-InltYY" version="14.4.4" type="github">
+  <diagram id="0etHUd4ZtsEKUsz-8fA3" name="Page-1">
+    <mxGraphModel dx="1062" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b6V605nmVPRzwc2KWcsB-1" value="유니버스" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-2" value="Asymbol" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-3" value="Symbol" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-4" value="종목명" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-5" value="GICS Lv1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-6" value="GICS Lv2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-7" value="GICS CODE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-8" value="GICS&lt;br&gt;SUSTIN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="285" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-9" value="GICS&lt;br&gt;SUSTIN&lt;br&gt;CODE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-10" value="핵심계열사&lt;br&gt;(Symbol)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-13" value="자산규모" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-14" value="설립일" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b6V605nmVPRzwc2KWcsB-16" value="기준연도" style="whiteSpace=wrap;html=1;aspect=fixed;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="440" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
