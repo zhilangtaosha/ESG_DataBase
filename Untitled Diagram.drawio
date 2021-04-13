@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T03:15:51.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="hZeXdRZT1_uiVxd6IDhj" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-13T02:27:21.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="K63xcSY0hlQGUDSFLB7b" version="14.5.0" type="github">
   <diagram id="0etHUd4ZtsEKUsz-8fA3" name="Page-1">
-    <mxGraphModel dx="942" dy="2261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="2394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
         <mxCell id="JzyAOgbL6nYUg80LKlJE-29" value="DP/KIPI/VC&lt;br&gt;기준 wiehgt" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="620" y="250" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JzyAOgbL6nYUg80LKlJE-31" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" target="b6V605nmVPRzwc2KWcsB-4" edge="1" source="b6V605nmVPRzwc2KWcsB-17">
+        <mxCell id="JzyAOgbL6nYUg80LKlJE-31" value="" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="b6V605nmVPRzwc2KWcsB-17" target="b6V605nmVPRzwc2KWcsB-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="359" y="290" as="sourcePoint" />
             <mxPoint x="950" y="290" as="targetPoint" />
@@ -180,10 +180,10 @@
         <mxCell id="JzyAOgbL6nYUg80LKlJE-54" value="composite key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="130" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ccl8x9UinXoabFwfetvD-1" value="상장시기&lt;br&gt;(G weight)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="ccl8x9UinXoabFwfetvD-1" value="상장시기&lt;br&gt;(G weight)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="620" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ccl8x9UinXoabFwfetvD-3" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JzyAOgbL6nYUg80LKlJE-29" target="ccl8x9UinXoabFwfetvD-1">
+        <mxCell id="ccl8x9UinXoabFwfetvD-3" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JzyAOgbL6nYUg80LKlJE-29" target="ccl8x9UinXoabFwfetvD-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="300" as="sourcePoint" />
             <mxPoint x="500" y="250" as="targetPoint" />
@@ -193,7 +193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ccl8x9UinXoabFwfetvD-4" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="b6V605nmVPRzwc2KWcsB-17" target="ccl8x9UinXoabFwfetvD-1">
+        <mxCell id="ccl8x9UinXoabFwfetvD-4" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="b6V605nmVPRzwc2KWcsB-17" target="ccl8x9UinXoabFwfetvD-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="180" as="sourcePoint" />
             <mxPoint x="500" y="250" as="targetPoint" />
